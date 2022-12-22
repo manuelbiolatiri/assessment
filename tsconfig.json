@@ -1,0 +1,18 @@
+{
+  "include": [
+    "src/**/*"
+],
+"compilerOptions": {
+    "paths": {
+        "@/*": ["*"]
+    },
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2020",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "."
+  },
+  "lib": ["es2020"]
+}
